@@ -30,3 +30,14 @@
 
 ### Синхронизировать содержимое папки `local_dir` в в хранилище
 - `s3cmd sync local_dir/ s3://bucketname`
+
+
+### Mermaid scheme test
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
